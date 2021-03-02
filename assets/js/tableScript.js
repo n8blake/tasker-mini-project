@@ -3,10 +3,10 @@ const addEventBtn = document.querySelector("#addEvent");
 var EVENTS = [];
 
 const addEvent = () => {
-	let type = $('#projectType').value;
-	let name = $('#projectName').value;
-	let rate = $('#hourlyRate').value;
-	let date = $('#datepicker').value;
+	let type = $('#projectType').val();
+	let name = $('#projectName').val();
+	let rate = $('#hourlyRate').val();
+	let date = $('#datepicker').val();
 
 	let event = {};
 	event.type = type;
